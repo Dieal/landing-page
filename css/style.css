@@ -197,7 +197,11 @@ nav ul li a, .header-main p {
 }
 
 
-
 footer {
-    background-color: red;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 15px 0;
 }
