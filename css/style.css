@@ -89,6 +89,46 @@ nav ul li a, .header-main p {
     font-size: 15px;
 }
 
+/* Random information */
+.random-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 30px;
+    padding-bottom: 130px;
+}
+
+#random-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.illustration-placeholder {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 10px; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    font-size: 18px;
+}
+
+.card-list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 70px;
+    margin-top: 30px;
+}
+
+
 footer {
     background-color: red;
 }
